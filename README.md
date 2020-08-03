@@ -1,3 +1,3 @@
 # triton 
------
-triton的使用方式可以在[这里](http://go.xesv5.com/triton/#/)查看。
+
+Triton is a high performance, high stability plug-in type messaging middleware consumer written in pure Go language,which supports the mainstream message queues in the market, such as Kafka, RabbitMQ, RocketMQ, NSQ, etc.And it is easy to be extended to meet different business requirements in production environment.
