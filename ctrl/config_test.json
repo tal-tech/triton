@@ -1,0 +1,11 @@
+{
+  "kafka":[
+  {
+    "consumerGroup":"test25",
+    "consumerCount":3,
+    "host":["127.0.0.1:9092"],
+    "topic":"test",
+    "failTopic":"xes_exercise_fail"
+  }
+  ]
+}
