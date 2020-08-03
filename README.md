@@ -8,7 +8,7 @@ Triton is a high performance, high stability plug-in type messaging middleware c
 ------
 The framework of triton is shown as below.
 
-![pic](https://github.com/hhtlxhhxy/triton/tree/master/img/frame.jpg)
+![image](https://github.com/hhtlxhhxy/triton/blob/master/img/frame.jpg)
 
 ## Quickstart
 
