@@ -12,7 +12,7 @@ The framework of triton is shown as below.
 
 ## Quickstart
 
-### kafka
+### Consumer messages from kafka by triton.
 -----
 
 #### 1. Start zookeeper
