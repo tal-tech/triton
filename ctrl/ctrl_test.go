@@ -12,7 +12,7 @@ import (
 func TestCtrl(t *testing.T) {
 	confutil.USER_CONF_PATH, _ = os.Getwd()
 	this := NewCtrl(nil)
-	fmt.Println(this.deal("key", []byte("demo?ctx=context&key=value this-is-a-test")))
+	fmt.Println(this.deal("test", "key", []byte("demo?ctx=context&key=value this-is-a-test")))
 	time.Sleep(time.Second)
 	//fmt.Println(this.deal(uc.IBroker{}, 0, 0, "", []byte(record), nil))
 }
