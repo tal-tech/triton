@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	logger "git.100tal.com/wangxiao_go_lib/xesLogger"
-	"git.100tal.com/wangxiao_go_lib/xesTools/httputil"
+	logger "github.com/tal-tech/loggerX"
+	"github.com/tal-tech/xtools/httputil"
 )
 
 type CurlStream struct {

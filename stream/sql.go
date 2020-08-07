@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"strings"
 
-	logger "git.100tal.com/wangxiao_go_lib/xesLogger"
-	"git.100tal.com/wangxiao_go_lib/xesTools/confutil"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/spf13/cast"
+	logger "github.com/tal-tech/loggerX"
+	"github.com/tal-tech/xtools/confutil"
 )
 
 type SqlStream struct {

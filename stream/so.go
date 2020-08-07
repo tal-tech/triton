@@ -4,7 +4,7 @@ import (
 	"context"
 	"plugin"
 
-	logger "git.100tal.com/wangxiao_go_lib/xesLogger"
+	logger "github.com/tal-tech/loggerX"
 )
 
 type SoStream struct {

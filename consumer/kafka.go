@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	logger "git.100tal.com/wangxiao_go_lib/xesLogger"
+	logger "github.com/tal-tech/loggerX"
 
 	"github.com/Shopify/sarama"
 	cluster "github.com/bsm/sarama-cluster"

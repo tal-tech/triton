@@ -8,14 +8,11 @@ import (
 
 	"triton/ctrl"
 
-	logger "git.100tal.com/wangxiao_go_lib/xesLogger"
-	"git.100tal.com/wangxiao_go_lib/xesLogger/builders"
-	"git.100tal.com/wangxiao_go_lib/xesTools/confutil"
-	"git.100tal.com/wangxiao_go_lib/xesTools/limitutil"
-	"git.100tal.com/wangxiao_go_lib/xesTools/pprofutil"
-
 	"github.com/Shopify/sarama"
 	"github.com/spf13/cast"
+	logger "github.com/tal-tech/loggerX"
+	"github.com/tal-tech/loggerX/builders"
+	"github.com/tal-tech/xtools/confutil"
 )
 
 var (
@@ -32,13 +29,7 @@ func main() {
 	builder.SetTraceDepartment("XueYan")
 	builder.SetTraceVersion("0.1")
 	logger.SetBuilder(builder)
-	if err := limitutil.GrowToMaxFdLimit(); err != nil {
-		logger.E("Fd Error", "try grow to max limit under normal priviledge, failed")
-		return
-	}
-
 	defer recovery()
-	go pprofutil.Pprof()
 	go dealSignal()
 
 	sarama.Logger = &saramaLog{}

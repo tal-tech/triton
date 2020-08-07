@@ -9,12 +9,10 @@ import (
 	"runtime/debug"
 	"sync"
 
-	logger "git.100tal.com/wangxiao_go_lib/xesLogger"
-
-	"github.com/apache/rocketmq-client-go"
 	"github.com/apache/rocketmq-client-go/consumer"
 	"github.com/apache/rocketmq-client-go/primitive"
 	"github.com/spf13/cast"
+	logger "github.com/tal-tech/loggerX"
 )
 
 type RocketmqConsumer struct {
@@ -66,7 +64,7 @@ func (r *RocketmqConsumer) Close() {
 func (r *RocketmqConsumer) pushConsumer(kfg *RocketmqConfig) {
 	defer r.wg.Done()
 
-	c, err := rocketmq.NewPushConsumer(
+	c, err := consumer.NewPushConsumer(
 		consumer.WithGroupName(kfg.ConsumerGroup),
 		consumer.WithNameServer(kfg.NameServer),
 		consumer.WithRetry(kfg.Retry),

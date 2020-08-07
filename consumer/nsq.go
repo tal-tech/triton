@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	logger "git.100tal.com/wangxiao_go_lib/xesLogger"
+	logger "github.com/tal-tech/loggerX"
 
 	"github.com/nsqio/go-nsq"
 	"github.com/spf13/cast"

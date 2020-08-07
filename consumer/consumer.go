@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"sync"
 
-	logger "git.100tal.com/wangxiao_go_lib/xesLogger"
-	"git.100tal.com/wangxiao_go_lib/xesTools/confutil"
+	logger "github.com/tal-tech/loggerX"
+	"github.com/tal-tech/xtools/confutil"
 )
 
 type ConsumerManager struct {

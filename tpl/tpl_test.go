@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"git.100tal.com/wangxiao_go_lib/xesTools/confutil"
+	"github.com/tal-tech/xtools/confutil"
 )
 
 func TestTpl(t *testing.T) {

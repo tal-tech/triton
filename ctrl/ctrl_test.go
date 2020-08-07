@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"git.100tal.com/wangxiao_go_lib/xesTools/confutil"
+	"github.com/tal-tech/xtools/confutil"
 )
 
 func TestCtrl(t *testing.T) {
