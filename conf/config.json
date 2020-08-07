@@ -1,0 +1,64 @@
+{
+  "enabled": {
+    "kafka": true,
+    "rabbitmq": false,
+    "rocketmq": false,
+    "nsq": false
+  },
+  "kafka": [
+    {
+      "consumerGroup": "test0",
+      "consumerCount": 1,
+      "host": [
+        "127.0.0.1:9092"
+      ],
+      "sasl": {
+        "enabled": false,
+        "user": "",
+        "password": ""
+      },
+      "topic": "test",
+      "failTopic": "",
+      "tplMode": 1,
+      "tplName": "test"
+    }
+  ],
+  "nsq": [
+    {
+      "consumerCount": 2,
+      "nsqLookup": [
+        "127.0.0.1:4161"
+      ],
+      "topic": "test",
+      "channel": "nsq",
+      "tplMode": 0
+    }
+  ],
+  "rocketmq": [
+    {
+      "consumerGroup": "test0",
+      "consumerMode": 0,
+      "nameServer": [
+        "127.0.0.1:9876"
+      ],
+      "topic": "TopicTest",
+      "tags": "stu_test_0",
+      "offset": 0,
+      "retry": 2,
+      "consumerCount": 1,
+      "tplMode": 1
+    }
+  ],
+  "rabbitmq": [
+    {
+      "url": "amqp://guest:guest@localhost:5672/",
+      "consumerQueue": "test",
+      "failExchange": "failExchange",
+      "failCount": 3,
+      "isReject": true,
+      "prefetchCount": 10,
+      "consumerCount": 2,
+      "tplMode": 1
+    }
+  ]
+}
