@@ -7,6 +7,7 @@ Triton is a high performance, high stability plug-in type messaging middleware c
 ## Document
 -----
 [Document](https://tal-tech.github.io/triton-doc/)
+
 [中文文档](https://www.yuque.com/tal-tech/triton)
 
 ## Framework
