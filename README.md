@@ -1,5 +1,4 @@
-<img src="https://github.com/hhtlxhhxy/triton/blob/master/img/triton.jpg" alt="image-20200803155136931" style="zoom:50%;" />
------
+## <img src="https://github.com/hhtlxhhxy/triton/blob/master/img/triton.jpg" alt="image-20200803155136931" style="zoom:50%;" />
 
 ## Background
 -----
