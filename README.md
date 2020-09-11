@@ -1,9 +1,12 @@
-# Triton 
------
+## <img src="https://github.com/hhtlxhhxy/triton/blob/master/img/triton.jpg" alt="image-20200803155136931" style="zoom:50%;" />
 
 ## Background
 -----
 Triton is a high performance, high stability plug-in type messaging middleware consumer written in pure Go language,which supports the mainstream message queues in the market, such as Kafka, RabbitMQ, RocketMQ, NSQ, etc.And it is easy to be extended to meet different business requirements in production environment.
+
+## Document
+-----
+[Document](https://tal-tech.github.io/triton-doc/)
 
 ## Framework
 ------
@@ -62,11 +65,10 @@ The framework of triton is shown as below.
 -=@NONE
 ```
 
-#### 5. Make
+#### 5. Run
 ```shell
+tar -zxvf triton.tar.gz
+cd triton/
 make
-```
-#### 6. Run
-```shell
 ./bin/triton -c ../conf/conf.ini
 ```
