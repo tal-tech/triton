@@ -9,7 +9,7 @@
     <tag>kworker</tag>
     <type>file_trace</type>
     <level>INFO</level>
-    <property name="filename">/home/log/xeslog/triton/triton.log</property>
+    <property name="filename">/home/logs/xeslog/triton/triton.log</property>
     <!--
        %T - Time (15:04:05 MST)
        %t - Time (15:04)
