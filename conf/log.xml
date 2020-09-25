@@ -6,7 +6,7 @@
     <level>INFO</level>
   </filter>
   <filter enabled="true">
-    <tag>kworker</tag>
+    <tag>triton</tag>
     <type>file_trace</type>
     <level>INFO</level>
     <property name="filename">/home/logs/xeslog/triton/triton.log</property>
