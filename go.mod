@@ -26,7 +26,7 @@ require (
 	github.com/spf13/cast v1.3.0
 	github.com/streadway/amqp v0.0.0-20190827072141-edfb9018d271
 	github.com/tal-tech/loggerX v0.0.0-20200806121626-bc3db51db258
-	github.com/tal-tech/xtools v0.0.0-20200806122720-d016f6d90e97
+	github.com/tal-tech/xtools v1.0.0
 	github.com/tidwall/gjson v1.5.0 // indirect
 	go.uber.org/zap v1.13.0 // indirect
 	google.golang.org/appengine v1.6.0 // indirect
